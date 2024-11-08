@@ -37,6 +37,7 @@ public class UseBankController {
 			}
 		});
 		//List<String> data1=data.stream().map(x->x.getBranch()).collect(Collectors.toList());
+		System.out.println(data);
 		return data;
 	}
 }
